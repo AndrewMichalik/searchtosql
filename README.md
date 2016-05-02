@@ -58,16 +58,16 @@ All search words are case **insensitive**. Matches will be found in the page tit
 <TD>the word <i>Online</i>, but not the exact phrase <i>Online Security</i></TD>
 </tr>
 <tr>
-<TD>Online SITE:<%Response.Write(osbSite.wwwGlobal.SiteNameURL);%></TD>
+<TD>Online SITE:www.AndrewM.com</TD>
 <TD>the word <i>Online</i> from the site <%Response.Write(osbSite.wwwGlobal.SiteNameURL);%></TD>
 </tr>
 <tr>
-<TD nowrap>Online - SITE:<%Response.Write(osbSite.wwwGlobal.SiteNameURL);%></TD>
-<TD>the word <i>Online</i>, excluding pages from the site <%Response.Write(osbSite.wwwGlobal.SiteNameURL);%></TD>
+<TD nowrap>Online - SITE:www.AndrewM.com</TD>
+<TD>the word <i>Online</i>, excluding pages from the site www.AndrewM.com</TD>
 </tr>
 <tr>
-<TD nowrap>Internet - "Online Technology"<br>SITE:<%Response.Write(osbSite.wwwGlobal.SiteNameURL);%></TD>
-<TD>the word <i>Internet</i>, and not the phrase <i>Online Technology</i>, from the site <%Response.Write(osbSite.wwwGlobal.SiteNameURL);%></TD>
+<TD nowrap>Internet - "Online Technology"<br>SITE:www.AndrewM.com</TD>
+<TD>the word <i>Internet</i>, and not the phrase <i>Online Technology</i>, from the site www.AndrewM.com</TD>
 </tr>
 </TABLE>
 
