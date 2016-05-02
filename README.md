@@ -59,7 +59,7 @@ All search words are case **insensitive**. Matches will be found in the page tit
 </tr>
 <tr>
 <TD>Online SITE:www.AndrewM.com</TD>
-<TD>the word <i>Online</i> from the site <%Response.Write(osbSite.wwwGlobal.SiteNameURL);%></TD>
+<TD>the word <i>Online</i> from the site www.AndrewM.com</TD>
 </tr>
 <tr>
 <TD nowrap>Online - SITE:www.AndrewM.com</TD>
