@@ -1,9 +1,10 @@
 package main
 
 import "fmt"
+import "infix"
 
 func main() {
-	fmt.Print("Enter infix string: ")
+	fmt.Print("Enter infix text string: ")
 	infixString, err := ReadFromInput()
 
 	if err != nil {
