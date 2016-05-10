@@ -6,12 +6,11 @@ import (
 	"os"
 	"strings"
 	"github.com/AndrewMichalik/searchtosql/infix"
-	"github.com/hishboy/gocommons/lang"
 )
 
 func main() {
 	fmt.Print("Enter infix text string: ")
-	infixString, err := ReadFromInput()
+	str, err := ReadFromInput()
 
 
 	if err != nil {
@@ -19,12 +18,8 @@ func main() {
 		return
 	}
 
-	// Test stack object
-	stack := lang.NewStack()
-	stack.Push(infixString)
-	infixString = stack.Pop().(string)
-
-	fmt.Println("Postfix string: ", infix.ToPostfix(infixString))
+	fmt.Println("Postfix string: ")
+	fmt.Println(infix.ToPostfix(str))
 	return
 
 }
